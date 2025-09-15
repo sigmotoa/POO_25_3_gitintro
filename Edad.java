@@ -4,12 +4,12 @@ public class Edad{
 
     Scanner leer = new Scanner(System.in);
 
-	byte current_year = 2025;  
+	short current_year = 2025;  
     System.out.println("Ingrese su nombre");
     String name = leer.nextLine();
 	System.out.println(name+" ingrese su nacimiento");
 	int year=leer.nextInt();
-	byte age = current_year-year;
+int age =(int) current_year-year;
 	if (age<18){
 		System.out.println("Bye");
 	}
